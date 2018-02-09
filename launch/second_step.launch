@@ -1,0 +1,8 @@
+<launch>
+
+	<remap from="/joint_states" to="/ariac/joint_states" />
+	
+	<node name="second_step" pkg="state_transitions" type="second_step"  output="screen"  />
+	
+	
+</launch>
